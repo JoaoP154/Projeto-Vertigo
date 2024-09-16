@@ -135,7 +135,9 @@ main {
     }
 
     main {
-        padding-inline: 7rem;
+        margin-inline: 7rem;
+        padding: 0;
+        max-width: 24rem;
     }
 
     .conteudo {
