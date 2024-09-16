@@ -63,6 +63,7 @@ main {
     font-weight: 600;
 }
 
+
 .login input {
     padding: 1rem 0.75rem;
     border: 1px solid var(--grey-200);
@@ -88,4 +89,8 @@ main {
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 2.2rem;
 }
