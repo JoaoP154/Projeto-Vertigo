@@ -8,7 +8,9 @@
 :root {
     --gray-800: #1e293b;
     --grey-600: #475569;
-    --purple: #7c3aed
+    --grey-200: #e2e8f0;
+    --grey-400: #94a3b8;
+    --purple: #7c3aed;
 }
 
 header {
@@ -51,6 +53,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .login label {
@@ -59,8 +63,29 @@ main {
     font-weight: 600;
 }
 
+.login input {
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--grey-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.login input::placeholder {
+    color: var(--grey-400);
+}
+
+.login input:hover,
+.login input:focus {
+    outline: 1px solid var(--purple);
+}
+
 .login a {
     color: var(--purple); 
     text-decoration: none;
     font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover {
+    text-decoration: underline;
 }
