@@ -129,6 +129,7 @@ main {
 @media(Min-width: 1000px) {
     body {
         display: flex;
+        height: 100vh;
     }
 
     header{
@@ -158,6 +159,11 @@ main {
     }
     .bg-desktop {
         display: block;
+        width: 100%;
+    }
+
+    .bg-desktop img {
+        width: 100%;
     }
 
 
