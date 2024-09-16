@@ -115,10 +115,19 @@ main {
     font-weight: 700;
 }
 
+.bg-desktop {
+    display: none;
+}
+
 @media(Min-width: 1000px) {
+    body {
+        display: flex;
+    }
+
     header{
         background: none;
         justify-content: flex-start;
+        padding-inline: 7rem;
     }
 
     header img{
@@ -127,6 +136,13 @@ main {
 
     main {
         padding-inline: 7rem;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+    .bg-desktop {
+        display: block;
     }
 }
 
